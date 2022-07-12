@@ -1,0 +1,27 @@
+footer {
+  background-color: #1a000a;
+  width: 100%;
+  padding: 15px;
+}
+
+footer p {
+  margin-top: 0;
+}
+
+.footer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.footer i {
+  color: white;
+  padding-right: 7px;
+  padding-top: 10px;
+  font-size: 22px;
+}
+
+.footer i:hover {
+  color: rgb(238, 238, 238);
+}

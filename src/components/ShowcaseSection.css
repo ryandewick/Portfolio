@@ -1,0 +1,87 @@
+body {
+  overflow-x: hidden;
+}
+
+.showcase-container {
+  max-width: 100%;
+  background-color: #2a2a2a;
+  top: 0;
+}
+
+.showcase-inner {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  max-width: 60%;
+  margin: 0 auto;
+}
+
+.showcase-inner img {
+  width: 70%;
+}
+
+h1 {
+  font-size: 40px;
+  line-height: 1;
+  color: white;
+}
+
+.showcase-container span {
+  font-size: 60px;
+  color: var(--primary);
+}
+
+p {
+  font-size: 18px;
+  color: white;
+  margin-top: 15px;
+}
+
+.showcase-btn {
+  color: white;
+}
+
+.showcase-buttons {
+  margin-top: 15px;
+  font-weight: 400;
+}
+
+.showcase-buttons > a {
+  margin-right: 1rem;
+}
+
+/* Download My CV Button */
+#root > div > div > div > div > a:nth-child(2) > button {
+  margin-top: 0.6rem;
+  font-weight: 400;
+}
+
+@media screen and (max-width: 768px) {
+  .showcase-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    max-width: 60%;
+    margin: 0 auto;
+  }
+
+  .showcase-info {
+    z-index: 5;
+    position: absolute;
+    height: 100%;
+    top: 17vh;
+  }
+
+  .showcase-inner img {
+    width: 100vw;
+    position: absolute;
+    top: 0;
+  }
+
+  .showcase-buttons {
+    margin-top: 15px;
+    font-weight: 400;
+    padding-bottom: 50px;
+  }
+}
